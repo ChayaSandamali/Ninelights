@@ -36,7 +36,9 @@
     <!-- FlexSlider Style -->
     <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
 
-    <!-- Internet Explorer condition - HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <link href='https://fonts.googleapis.com/css?family=Nixie+One' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Kreon:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,300' rel='stylesheet' type='text/css'>    <!-- Internet Explorer condition - HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -49,26 +51,27 @@
         <div class="row t-container">
 
             <!-- Logo -->
-            <div class="span3">
+            <div class="span3" id="span3">
                 <div class="logo">
-                    <a href="index.htm"><img src="img/logo-header.png" alt=""></a>
+                    <a href="index.htm"><img id="logo" src="img/logo-header.png" alt=""></a>
                 </div>
             </div>
 
-            <div class="span9">
-                <div class="row space60"></div>
-                <nav id="nav" role="navigation">
+            <div class="span9" id="span9">
+                <div class="row space70"></div>
+                <nav id="nav" role="navigation" class="navbar-fixed-top">
                     <a href="#nav" title="Show navigation">Show navigation</a>
                     <a href="#" title="Hide navigation">Hide navigation</a>
                     <ul class="clearfix">
                         <li class="active"><a href="index.htm" title="">Home</a></li>
                         <li><a href="about-us.htm" title="">About Us</a></li>
-                        <li><a href="gallery.htm" title="">Gallery</a></li>
-                        <!--<li><a href="services.htm" title="">Services</a></li>-->
-                        <li><a href="" title=""><span>Products and Services</span></a>
+                        <li><a href="blog.htm" title="">Blog</a></li>
+                        <li><a href="contact.htm" title=""> Contact Us </a>
+                        <li><a href="" title=""> <span>Products and Services</span> </a>
                             <ul> <!-- Submenu -->
                                 <li><a href="tea-factory-system.htm" title="">Tea Factory Management Systems</a></li>
-                                <li><a href="machine-vision-system.html" title="">Advanced Machine Vision Systems</a></li>
+                                <li><a href="machine-vision-system.html" title="">Advanced Machine Vision Systems</a>
+                                </li>
                                 <li><a href="pos-system.html" title="">Point of Sales Systems</a></li>
                                 <li><a href="pos-system.html" title="">Human Resources Management Systems</a></li>
                                 <li><a href="pos-system.html" title="">Ninelights Mobile Applications</a></li>
@@ -110,12 +113,14 @@
 <div id="content">
     <div class="container">
         <div class="f-center">
-            <h2>why choose us ?</h2>
+            <h2 style="font-family: 'Nixie One', cursive;"> We accelerate your progress </h2>
 
             <div class="head-info">
-                We bring what’s next in IT to your organization. Accelerate your progress and get rid of the hassle of
-                micromanagement with our ERP systems. And reach a wider community than ever before with our web
-                solutions.
+                <p style="font-family: 'Kreon', serif;">We bring what’s next in IT to your organization. Accelerate your progress and get rid of the hassle
+                    of
+                    micromanagement with our ERP systems.</p>
+
+                <p style="font-family: 'Kreon', serif;">And reach a wider community than ever before with our web solutions.</p>
             </div>
         </div>
         <div class="f-hr"></div>
@@ -126,57 +131,56 @@
                     <!-- Service Container -->
                     <div class="span4">
                         <!-- Service Icon -->
-                        <div class="ic-1"><i class="icon-lightbulb"></i></div>
+                        <div class="ic-1"><i class="icon-check"></i></div>
                         <!-- Service Title -->
                         <div class="title-1"><h4>Simple</h4></div>
                         <!-- Service Content -->
                         <div class="text-1">
                             Our solutions, powered with the latest innovations, emphasize on simplicity. We understand
-                            technology and we understand people. Consequently Ninelights systems are made to be easy to
-                            grasp and handy to use.
+                            technology and people.
+                            Consequently Ninelights systems are made to be easy to grasp and handy to use.
                         </div>
                     </div>
                     <!-- Service Container End -->
                     <div class="span4">
-                        <div class="ic-1"><i class="icon-resize-small"></i></div>
+                        <div class="ic-1"><i class="icon-certificate"></i></div>
                         <div class="title-1"><h4>Effective</h4></div>
                         <div class="text-1">
+                            Trying to stay on top of competition in this rapidly changing business world?Streamlined for
+                            better speed and tailor-made for each organization, Ninelights systems are guaranteed to
+                            accelerate your progress.
                         </div>
-                        Trying to stay on top of competition in this rapidly changing business world? Our products are
-                        proven to provide you with that edge you need. Streamlined for better speed and tailor-made for
-                        each organization, Ninelights systems are guaranteed to accelerate your progress.
                     </div>
                     <div class="span4">
-                        <div class="ic-1"><i class="icon-eye-open"></i></div>
+                        <div class="ic-1"><i class="icon-ban-circle"></i></div>
                         <div class="title-1"><h4>Hassle-free</h4></div>
                         <div class="text-1">
                             Ninelights systems are designed to provide high reliability. In the rare mishap, our
-                            maintenance team can be reached at anytime, anywhere and we promise rapid response. So do
-                            not burden yourself with IT maintenance as well. When you are with us, that is already taken
-                            care of.
+                            maintenance team can be reached at anytime, anywhere and we promise rapid response.
+                            <!--So donot burden yourself with IT maintenance as well. When you are with us, that is already takencare of.-->
                         </div>
                     </div>
                 </div>
             </div>
 
-            <div class="span12">
-                <h2>Bring Your Organization to the 21st Century</h2>
-            </div>
-            <div class="span8">
+            <!--<div class="f-center">-->
+            <!--<h2> We accelerate your progress!!! </h2>-->
+            <!--</div>-->
+            <div class="span8" id="span8">
                 <img src="img/image01.png" alt="">
             </div>
-            <div class="span4">
+            <div class="span4" id="span4">
                 <div class="ic-1"></div>
-                <div class="title-1"><h4>Our Service:</h4></div>
+                <div class="title-1"><h4>Our Services</h4></div>
                 <!-- List -->
                 <div class="text-1">
                     <ul class="list-b">
                         <!-- List Items -->
-                        <li><i class="icon-ok"></i>ERP Systems</li>
+                        <li><i class="icon-ok"></i> ERP Systems</li>
                         <li><i class="icon-ok"></i> Mobile Application Development</li>
                         <li><i class="icon-ok"></i> Human Resource Management Applications</li>
                         <li><i class="icon-ok"></i> Business Performance Management</li>
-                        <li><i class="icon-ok"></i> Inventory Managment Systems</li>
+                        <li><i class="icon-ok"></i> Inventory Management Systems</li>
                     </ul>
                 </div>
                 <!-- List End -->
@@ -273,77 +277,77 @@
 </div>
 <!-- Content End -->
 
-<!-- Footer -->
-<footer id="footer">
-    <div class="container">
-        <div class="row">
-            <div class="span5">
-                <h3>Contact Form</h3>
+<!--&lt;!&ndash; Footer &ndash;&gt;-->
+<!--<footer id="footer">-->
+    <!--<div class="container">-->
+        <!--<div class="row">-->
+            <!--<div class="span5">-->
+                <!--<h3>Contact Form</h3>-->
 
-                <div>
-                    <form class="form-main" name="ajax-form" id="ajax-form" action="#" method="post">
-                        <div id="ajaxsuccess">E-mail was successfully sent.</div>
-                        <div class="error" id="err-name">Please enter name</div>
-                        <input name="name" id="name" type="text" value="Name"
-                               onfocus="if(this.value == 'Name') this.value='';"
-                               onblur="if(this.value == '') this.value='Name';">
+                <!--<div>-->
+                    <!--<form class="form-main" name="ajax-form" id="ajax-form" action="#" method="post">-->
+                        <!--<div id="ajaxsuccess">E-mail was successfully sent.</div>-->
+                        <!--<div class="error" id="err-name">Please enter name</div>-->
+                        <!--<input name="name" id="name" type="text" value="Name"-->
+                               <!--onfocus="if(this.value == 'Name') this.value='';"-->
+                               <!--onblur="if(this.value == '') this.value='Name';">-->
 
-                        <div class="error" id="err-email">Please enter e-mail</div>
-                        <div class="error" id="err-emailvld">E-mail is not a valid format</div>
-                        <input name="email" id="email" type="text" value="E-mail"
-                               onfocus="if(this.value == 'E-mail') this.value='';"
-                               onblur="if(this.value == '') this.value='E-mail';">
+                        <!--<div class="error" id="err-email">Please enter e-mail</div>-->
+                        <!--<div class="error" id="err-emailvld">E-mail is not a valid format</div>-->
+                        <!--<input name="email" id="email" type="text" value="E-mail"-->
+                               <!--onfocus="if(this.value == 'E-mail') this.value='';"-->
+                               <!--onblur="if(this.value == '') this.value='E-mail';">-->
 
-                        <div class="error" id="err-message">Please enter message</div>
-                        <textarea name="message" id="message" onfocus="if(this.value == 'Message') this.value='';"
-                                  onblur="if(this.value == '') this.value='Message';">Message</textarea><br>
+                        <!--<div class="error" id="err-message">Please enter message</div>-->
+                        <!--<textarea name="message" id="message" onfocus="if(this.value == 'Message') this.value='';"-->
+                                  <!--onblur="if(this.value == '') this.value='Message';">Message</textarea><br>-->
 
-                        <div>
-                            <div class="error" id="err-form">There was a problem validating the form please check!</div>
-                            <div class="error" id="err-timedout">The connection to the server timed out!</div>
-                            <div class="error" id="err-state"></div>
-                        </div>
-                        <button id="send" class="btn f-right">Send Message <i class="icon-ok"></i></button>
-                    </form>
-                </div>
-            </div>
-            <div class="span3 offset3">
-                <h3>Address</h3>
-                81 Sunnyvale Street<br>
-                Los Angeles, CA 90185<br>
-                United States<br>
-                <br>
-                <i class="icon-phone"></i>+01 880 555 999<br>
-                <i class="icon-envelope"></i><a href="mailto:support@example.com">support@example.com</a><br>
-                <i class="icon-home"></i><a href="#">www.example.com</a>
+                        <!--<div>-->
+                            <!--<div class="error" id="err-form">There was a problem validating the form please check!</div>-->
+                            <!--<div class="error" id="err-timedout">The connection to the server timed out!</div>-->
+                            <!--<div class="error" id="err-state"></div>-->
+                        <!--</div>-->
+                        <!--<button id="send" class="btn f-right">Send Message <i class="icon-ok"></i></button>-->
+                    <!--</form>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="span3 offset3">-->
+                <!--<h3>Address</h3>-->
+                <!--81 Sunnyvale Street<br>-->
+                <!--Los Angeles, CA 90185<br>-->
+                <!--United States<br>-->
+                <!--<br>-->
+                <!--<i class="icon-phone"></i>+01 880 555 999<br>-->
+                <!--<i class="icon-envelope"></i><a href="mailto:support@example.com">support@example.com</a><br>-->
+                <!--<i class="icon-home"></i><a href="#">www.example.com</a>-->
 
-                <div class="row space40"></div>
+                <!--<div class="row space40"></div>-->
 
-                <a href="#" class="social-network sn2 behance"></a>
-                <a href="#" class="social-network sn2 facebook"></a>
-                <a href="#" class="social-network sn2 pinterest"></a>
-                <a href="#" class="social-network sn2 flickr"></a>
-                <a href="#" class="social-network sn2 dribbble"></a>
-                <a href="#" class="social-network sn2 lastfm"></a>
-                <a href="#" class="social-network sn2 forrst"></a>
-                <a href="#" class="social-network sn2 xing"></a>
-            </div>
-        </div>
+                <!--<a href="#" class="social-network sn2 behance"></a>-->
+                <!--<a href="#" class="social-network sn2 facebook"></a>-->
+                <!--<a href="#" class="social-network sn2 pinterest"></a>-->
+                <!--<a href="#" class="social-network sn2 flickr"></a>-->
+                <!--<a href="#" class="social-network sn2 dribbble"></a>-->
+                <!--<a href="#" class="social-network sn2 lastfm"></a>-->
+                <!--<a href="#" class="social-network sn2 forrst"></a>-->
+                <!--<a href="#" class="social-network sn2 xing"></a>-->
+            <!--</div>-->
+        <!--</div>-->
 
-        <div class="row space50"></div>
-        <div class="row">
-            <div class="span6">
-                <div class="logo-footer">
-                    Design by <a href="https://www.freshdesignweb.com">freshDesignweb</a>
-                </div>
-            </div>
-            <div class="span6 right">
-                &copy; 2020. All rights reserved.
-            </div>
-        </div>
+        <!--<div class="row space50"></div>-->
+        <!--<div class="row">-->
+            <!--<div class="span6">-->
+                <!--<div class="logo-footer">-->
+                    <!--Design by <a href="https://www.freshdesignweb.com">freshDesignweb</a>-->
+                <!--</div>-->
+            <!--</div>-->
+            <!--<div class="span6 right">-->
+                <!--&copy; 2020. All rights reserved.-->
+            <!--</div>-->
+        <!--</div>-->
 
-    </div>
-</footer>
+    <!--</div>-->
+<!--</footer>-->
 <!-- Footer End -->
 
 <!-- JavaScripts -->

@@ -110,6 +110,8 @@
   
   .text-1 {
     padding:0px !important;
+    text-align: justify;
+    text-justify: inter-word;
   }
   
   .back-top {
