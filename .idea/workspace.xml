@@ -25,8 +25,8 @@
       <file leaf-file-name="index.htm" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.htm">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.47342193">
-              <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+            <state vertical-scroll-proportion="0.32392028">
+              <caret line="220" column="30" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -110,7 +110,6 @@
         <option value="$PROJECT_DIR$/css/bootstrap-override.css" />
         <option value="$PROJECT_DIR$/css/bootstrap-responsive.min.css" />
         <option value="$PROJECT_DIR$/css/navbarstyles.css" />
-        <option value="$PROJECT_DIR$/index.htm" />
         <option value="$PROJECT_DIR$/about-us.htm" />
         <option value="$PROJECT_DIR$/blog.htm" />
         <option value="$PROJECT_DIR$/contact.htm" />
@@ -118,6 +117,7 @@
         <option value="$PROJECT_DIR$/machine-vision-system.html" />
         <option value="$PROJECT_DIR$/pos-system.html" />
         <option value="$PROJECT_DIR$/css/styles.css" />
+        <option value="$PROJECT_DIR$/index.htm" />
       </list>
     </option>
   </component>
@@ -916,8 +916,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.htm">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47342193">
-          <caret line="67" column="34" selection-start-line="67" selection-start-column="34" selection-end-line="67" selection-end-column="34" />
+        <state vertical-scroll-proportion="0.32392028">
+          <caret line="220" column="30" selection-start-line="220" selection-start-column="30" selection-end-line="220" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
