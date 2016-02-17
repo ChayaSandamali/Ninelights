@@ -192,7 +192,7 @@ img {
 }
 
 .space40 {
-    height: 40px;
+    height: 60px;
     clear: both;
 }
 
@@ -284,12 +284,15 @@ img {
 header {
     position: relative;
     display: block;
+    margin-top: 40px;
 }
 
 .t-container {
     position: relative;
-    background-color: beige;
     margin-left: 0px;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 
 #span3 {
@@ -311,7 +314,7 @@ header {
 
 #logo {
     margin-left: -50px;
-    margin-top: -5px;
+    margin-top: -8px;
 }
 
 .head-info {
@@ -333,9 +336,12 @@ header {
 /* --------------------------------------------------------	*/
 
 #nav {
-    font-family: 'Open Sans', sans-serif;
-    position: relative;
+    /*font-family: 'Open Sans', sans-serif;*/
+    background-color: white;
     z-index: 1000;
+    -webkit-box-shadow: 0 8px 6px -6px #999;
+    -moz-box-shadow: 0 8px 6px -6px #999;
+    box-shadow: 0 8px 6px -6px #999;
 }
 
 #nav > a {
@@ -350,7 +356,7 @@ header {
 }
 
 #nav li a {
-    color: #fff;
+    color: #3c3c3c;
     display: block;
 }
 
@@ -374,11 +380,12 @@ header {
 /* first level */
 
 #nav > ul {
-    background-color: #002a80;
+    /*background-color: #002a80;*/
 }
 
 #nav > ul > li {
-    width: 20%;
+    /*width: 20%;*/
+    width: 16%;
     height: 100%;
     float: left;
 }
@@ -388,26 +395,30 @@ header {
     font-size: 14px; /* 24 */
     line-height: 2.5em; /* 60 (24) */
     text-align: center;
+    margin-top: 20px;
 }
 
 #nav > ul > li:not( :last-child ) > a {
-    border-right: 1px solid #777777;
+    /*border-right: 1px solid #777777;*/
 }
 
 #nav > ul > li:hover > a,
 #nav > ul:not( :hover ) > li.active > a {
-    background-color: #002a80;
+    /*background-color: #002a80;*/
 }
 
 /* second level */
 
 #nav li ul {
-    background-color: #002a80;
+    background-color: white;
     display: none;
     position: absolute;
     top: 100%;
     margin-left: -0px;
     width: 100%;
+    border-right: 1px solid #3c3c3c;
+    border-left: 1px solid #3c3c3c;
+    border-bottom: 1px solid #3c3c3c;
 }
 
 #nav li:hover ul {
@@ -423,6 +434,7 @@ header {
 #nav li ul a {
     border-top: 1px solid #7c7e7e;
     padding: 5px; /* 15 (20) */
+    margin-left: -40px;
 }
 
 #nav li ul li a:hover,
@@ -432,7 +444,7 @@ header {
 
 @media only screen and ( max-width: 62.5em ) /* 1000 */ {
     #nav {
-        width: 25%;
+        /*width: 25%;*/
         position: relative;
         margin: 0;
     }
@@ -492,6 +504,7 @@ header {
 
     #nav:target > ul {
         display: block;
+        background-color: white;
     }
 
     #nav > ul > li {
@@ -505,6 +518,10 @@ header {
         padding: 0 0.833em; /* 20 (24) */
     }
 
+    #nav > ul > li > img {
+        display: none;
+    }
+
     #nav > ul > li:not( :last-child ) > a {
         border-right: none;
         border-bottom: 1px solid #cc470d;
@@ -515,6 +532,12 @@ header {
         position: static;
         padding: 1.25em; /* 20 */
         padding-top: 0;
+    }
+
+    #nav li ul a {
+        border-top: 1px solid #7c7e7e;
+        padding: 5px; /* 15 (20) */
+        margin-left: 0;
     }
 }
 
@@ -786,6 +809,10 @@ header {
     background: #fda056;
 }
 
+#send {
+    margin-right: 26px;
+}
+
 /* --------------------------------------------------------	*/
 /*  Accordion  */
 /* --------------------------------------------------------	*/
@@ -948,6 +975,7 @@ table a:hover {
     background: #464646;
     border-radius: 0px;
     border: 0px;
+    color: whitesmoke;
 }
 
 .form-main textarea {
@@ -1200,11 +1228,11 @@ table a:hover {
 /* --------------------------------------------------------	*/
 
 .tag {
-    height: 20px;
-    font-size: 13px;
+    font-size: 10px;
     color: #fff;
     background: #fda056;
-    padding: 5px 13px 4px 13px;
+    padding-right: 5px;
+    padding-left: 5px;
     margin-right: 10px;
     margin-bottom: 10px;
     float: left;
